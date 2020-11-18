@@ -1,0 +1,27 @@
+.card{
+    border: black 3px;
+    border-radius: 2%;
+    padding: 80px , auto;
+    margin: 60px , auto;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.image{
+    width: 256px;
+    height: 180px;
+}
+.card:hover{
+    background-color: cadetblue;
+    transition: 1s; 
+}.image:hover{
+    filter: opacity(0.5);
+    transition: 1s; 
+}
+.retitle{
+    color: #27201e;
+}.retitle:hover{
+    color: darkslategrey;
+}
+.ingred{
+    color: #27201e;
+}
