@@ -2,13 +2,16 @@
     border: black 3px;
     border-radius: 2%;
     padding: 80px , auto;
-    margin: 60px , auto;
+    margin:  auto;
     background-color: blanchedalmond;
+    width: 50%;
     text-align: center;
 }
 .image{
     width: 256px;
     height: 180px;
+    margin: auto;
+    border-radius:  2%;
 }
 .card:hover{
     background-color: cadetblue;
@@ -16,6 +19,7 @@
 }.image:hover{
     filter: opacity(0.5);
     transition: 1s; 
+    border-radius:  5%;
 }
 .retitle{
     color: #27201e;
@@ -24,4 +28,24 @@
 }
 .ingred{
     color: #27201e;
+    text-align: center;
 }
+.details{
+    
+    text-align: center;
+    color: #27201e;
+}
+
+.modal {
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .para {
+      color: white;
+      text-align: center;
+  }
